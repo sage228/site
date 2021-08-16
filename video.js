@@ -1,0 +1,4 @@
+const text = document.getElementById('video')
+let links = ['ph5fbe9384530d6', 'ph602eae5720764', 'ph602ea74909acd', 'ph60f7ba8cdb119', 'ph602ea14249989', 'ph5f1c573dba4f6', 'ph602ea39b0591f', 'ph602eae5720764', 'ph603697d30cc5b', 'ph602eae99c51d6', 'ph6053d4f5eab2d', 'ph5fc7e645e5234', 'ph5ec761a14ce17', 'ph5f11e454be397', 'ph5f9e81bcf287a', 'ph600ba472cd838', 'ph602e99d29decb', 'ph5fbe9384530d6', 'ph602ea7cc83106', 'ph604f621618b67', 'ph602e9c54d0d1e', 'ph602ea8ed6d681', 'ph5f3a8e76d4af9', 'ph5f992073013b7', 'ph5b1fb33e72d72', 'ph603b575e00170', 'ph602ea06bbb853', 'ph602ea74909acd', 'ph602eadfcd127c', 'ph5f25511a6accf', 'ph5eb134ebdf9dc', 'ph5b29fe7f2e958', 'ph604908db5d0d7', 'ph5e77225659935', 'ph606abd2b97b45', 'ph5eab25fcae7a2']
+let video_url = links[Math.floor(Math.random() * links.length)]
+text.setAttribute('src', 'https://www.pornhub.com/embed/' + video_url)
